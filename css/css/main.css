@@ -1,0 +1,150 @@
+/****************/
+/* Font Imports */
+/****************/
+
+@font-face {
+  font-family: Avenir;
+  src: url(../fonts/avenir.otf) format(opentype);
+}
+
+
+/***************/
+/* Scaffolding */
+/***************/
+
+html, body {
+  position: relative;
+  width: 100%;
+  height: 100% !important;
+  font-family: 'Avenir', sans-serif;
+}
+
+body > .container {
+  text-align: center;
+}
+
+.container {
+  position: relative;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+
+/***********************/
+/* Header for Yakathon */
+/***********************/
+
+header {
+  height: 100%;
+  width: 100%;
+  background: #FFF url(../../lib/image/yak_back.png)  no-repeat center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.stage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-width: 900px;
+  height: 100%;
+  overflow: hidden;
+  z-index: 5;
+}
+
+.far-clouds {
+  background: transparent url(../../lib/image/far-clouds.png) 305px 102px repeat-x;
+}
+
+.near-clouds {
+  background: transparent url(../../lib/image/near-clouds.png) 305px 162px repeat-x;
+}
+
+.mainContent{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 101;
+}
+
+.header-content {
+  margin-top: 280px;
+  text-align: center;
+}
+
+.header-content h1 {
+  font-size: 100px;
+  color: #fff;
+}
+
+.header-content a {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  font-size: 20px;
+  color: #fff;
+  z-index: 102;
+  width: 120px;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.header-content a:hover {
+  text-decoration: none;
+}
+
+.header-content p {
+  margin-top: 5px;
+  font-size: 30px;
+  color: #fff;
+}
+
+
+/***************************/
+/* Containers for Yakathon */
+/***************************/
+
+.container-title {
+  display: block;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.container-subtitle {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.container-hero-item {
+  padding: 0 55px;
+  text-align: center;
+}
+
+.sponsor-hero-item {
+  padding: 0 30px;
+  text-align: center;
+}
+
+.container-icon {
+  height: 120px;
+}
+
+#overlay {
+  background:transparent;
+  position:relative;
+  width:100%;
+  height:450px; /* your iframe height */
+  top:450px;  /* your iframe height */
+  margin-top:-450px;  /* your iframe height */
+}
