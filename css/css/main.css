@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: Avenir;
-  src: url(../fonts/avenir.otf) format(opentype);
+  src: url(../fonts/avenir-ultralight.otf) format(opentype);
 }
 
 
@@ -117,6 +117,7 @@ header {
   display: block;
   margin-top: 50px;
   text-align: center;
+  font-size: 50px;
 }
 
 .container-subtitle {
@@ -147,4 +148,14 @@ header {
   height:450px; /* your iframe height */
   top:450px;  /* your iframe height */
   margin-top:-450px;  /* your iframe height */
+}
+
+.style-odd {
+  background-color: #eee;
+  opacity: 0.5;
+}
+
+
+.style-even {
+  background-color: #fff;
 }
